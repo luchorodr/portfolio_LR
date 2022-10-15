@@ -1,0 +1,38 @@
+:root {
+  --color-principal: rgb(28, 86, 108);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#contactar {
+  margin-right: 10px;
+  background-color: var(--color-principal);
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 500px;
+}
+
+.carousel-inner img {
+  top: -220px;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card img {
+  position: relative;
+  object-fit: cover;
+  height: 200px;
+}
